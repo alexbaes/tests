@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preguntas sobre CSS3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container my-5">
+      <h1>40 Preguntas sobre CSS3</h1>
+      <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              1.Qué es CSS y cuál es su función en el desarrollo web?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo
+              utilizado para definir la presentación y el aspecto visual de un
+              documento HTML. Permite separar el contenido de la estructura y el
+              diseño de un sitio web.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              2.Cuáles son las diferentes formas de aplicar CSS en un documento
+              HTML?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Hay tres formas de aplicar CSS: mediante estilos en línea,
+              mediante una etiqueta &lt;style&gt; en la sección &lt;head&gt; del
+              documento HTML y mediante un archivo CSS externo enlazado con la
+              etiqueta &lt;link&gt;.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              3.Cuál es la diferencia entre las clases y los ID en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Las clases se utilizan para aplicar estilos a múltiples elementos
+              en un documento, mientras que los ID se utilizan para aplicar
+              estilos a un único elemento. Además, un elemento puede tener
+              múltiples clases, pero solo un ID.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              4.Qué son los selectores en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Los selectores son patrones que permiten seleccionar y aplicar
+              estilos a elementos HTML específicos. Pueden ser selectores de
+              etiquetas, de clases, de ID, de atributos, de descendencia, etc.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              5.Cuál es la diferencia entre un selector de clase y un selector
+              de ID?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Un selector de clase se denota por un punto (por ejemplo,
+              .mi-clase) y se puede aplicar a varios elementos, mientras que un
+              selector de ID se denota por un numeral (#) (por ejemplo, #mi-id)
+              y se aplica a un único elemento.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              6.Qué es el modelo de caja en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              El modelo de caja en CSS se refiere a cómo se representa
+              visualmente un elemento HTML. Cada elemento tiene un contenido,
+              relleno, borde y margen. El ancho total de un elemento se calcula
+              sumando estos componentes.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              7.Cuál es la diferencia entre margin y padding en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              margin es el espacio transparente que rodea un elemento, mientras
+              que padding es el espacio transparente entre el contenido de un
+              elemento y su borde.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              8.Cómo se puede centrar un elemento horizontalmente en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Para centrar horizontalmente un elemento, se puede aplicar
+              margin-left: auto; y margin-right: auto; al elemento o utilizar
+              text-align: center; en el contenedor padre. También es muy útil
+              usar el sistema Flexbox.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+              aria-expanded="false"
+              aria-controls="collapseNine"
+            >
+              9.Cuál es la diferencia entre display: none;, visibility: hidden;
+              y opacity: 0;?
+            </button>
+          </h2>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              display: none; oculta completamente el elemento y no reserva
+              espacio en el diseño. visibility: hidden; oculta el elemento pero
+              aún reserva espacio. opacity: 0; hace que el elemento sea
+              completamente transparente, pero aún ocupa espacio en el diseño.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTen"
+              aria-expanded="false"
+              aria-controls="collapseTen"
+            >
+              10.Qué son los media queries y cómo se utilizan?
+            </button>
+          </h2>
+          <div
+            id="collapseTen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Los media queries son reglas de CSS que se utilizan para aplicar
+              estilos diferentes según las características del dispositivo o del
+              medio en el que se muestra el sitio web. Se utilizan con la
+              declaración @media y se definen breakpoints para adaptar el diseño
+              a diferentes tamaños de pantalla.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven"
+              aria-expanded="false"
+              aria-controls="collapseEleven"
+            >
+              11.Qué es la especificidad en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseEleven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La especificidad en CSS es un sistema de asignación de prioridades
+              a los selectores para determinar qué regla se aplicará cuando
+              existan conflictos. Se basa en el tipo de selector, el número de
+              ID, clases y etiquetas utilizadas. A mayor especificidad, mayor
+              importancia.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTweleve"
+              aria-expanded="false"
+              aria-controls="collapseTwelve"
+            >
+              12.Cuál es la diferencia entre em y rem en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseTwelve"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              em es una unidad de medida relativa al tamaño de la fuente del
+              elemento padre más cercano, mientras que rem es una unidad de
+              medida relativa al tamaño de la fuente del elemento raíz
+              (&lt;html&gt;).
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirteen"
+              aria-expanded="false"
+              aria-controls="collapseThirteen"
+            >
+              13.Qué es el diseño responsivo y cómo se logra en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseThirteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              El diseño responsivo es una técnica de diseño web que permite que
+              un sitio se adapte y se vea bien en diferentes dispositivos y
+              tamaños de pantalla. Se logra utilizando media queries, unidades
+              relativas y un diseño flexible y fluido.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourteen"
+              aria-expanded="false"
+              aria-controls="collapseFourteen"
+            >
+              14.Cuál es la diferencia entre position: relative;, absolute; y
+              fixed;?
+            </button>
+          </h2>
+          <div
+            id="collapseFourteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              position: relative; coloca el elemento en relación a su posición
+              original. position: absolute; posiciona el elemento en relación a
+              su primer ancestro posicionado. position: fixed; posiciona el
+              elemento en relación a la ventana del navegador.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFifteen"
+              aria-expanded="false"
+              aria-controls="collapseFifteen"
+            >
+              15.Cómo se puede lograr un diseño de varias columnas en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseFifteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede lograr un diseño de varias columnas utilizando
+              propiedades como column-count, column-width y column-gap. Esto
+              divide automáticamente el contenido en columnas. Aunque Flexbox es
+              otra manera de lograrlo.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSixteen"
+              aria-expanded="false"
+              aria-controls="collapseSixteen"
+            >
+              16.Qué son los pseudo-elementos en CSS y cuáles son algunos
+              ejemplos?
+            </button>
+          </h2>
+          <div
+            id="collapseSixteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Los pseudo-elementos son selectores que permiten seleccionar y
+              estilizar partes específicas de un elemento. Algunos ejemplos son
+              ::before y ::after, que insertan contenido antes y después del
+              contenido de un elemento, respectivamente.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSevemteen"
+              aria-expanded="false"
+              aria-controls="collapseSevemteen"
+            >
+              17.Qué son los pseudo-selectores en CSS y cuáles son algunos
+              ejemplos?
+            </button>
+          </h2>
+          <div
+            id="collapseSevemteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Los pseudo-selectores son selectores que permiten seleccionar y
+              estilizar elementos en diferentes estados o condiciones. Algunos
+              ejemplos son :hover, :active, :first-child, :nth-child(), etc.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEighteen"
+              aria-expanded="false"
+              aria-controls="collapseEighteen"
+            >
+              18.Cuál es la diferencia entre inline y block en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseEighteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Los elementos inline se muestran en línea y solo ocupan el espacio
+              necesario, mientras que los elementos block se muestran en bloques
+              y ocupan todo el ancho disponible.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNineteen"
+              aria-expanded="false"
+              aria-controls="collapseNineteen"
+            >
+              19.Cómo se puede hacer que un elemento ocupe todo el ancho
+              disponible?
+            </button>
+          </h2>
+          <div
+            id="collapseNineteen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede hacer que un elemento ocupe todo el ancho disponible
+              estableciendo su propiedad width a 100% o utilizando la propiedad
+              display: block;.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwenty"
+              aria-expanded="false"
+              aria-controls="collapseTwenty"
+            >
+              20.Qué es el box-sizing en CSS y cuáles son los posibles valores?
+            </button>
+          </h2>
+          <div
+            id="collapseTwenty"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              box-sizing es una propiedad que controla cómo se calcula el ancho
+              y el alto de un elemento, teniendo en cuenta o excluyendo el
+              relleno y el borde. Los posibles valores son content-box
+              (predeterminado) y border-box. Para que un elemento ocupe por
+              ejemplo 500px de ancho, contando su borde y padding, hay que
+              indicarle el valor de border-box.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyONe"
+              aria-expanded="false"
+              aria-controls="collapseTwentyONe"
+            >
+              21.Cómo se puede hacer que un elemento tenga bordes redondeados?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyONe"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede hacer que un elemento tenga bordes redondeados utilizando
+              la propiedad border-radius y estableciendo un valor en píxeles o
+              porcentaje.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwentyTwo"
+            >
+              22.Cuál es la diferencia entre :nth-child() y :nth-of-type()?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              :nth-child() selecciona elementos en función de su posición en
+              relación a todos los elementos secundarios de su padre, mientras
+              que :nth-of-type() selecciona elementos en función de su posición
+              en relación a los elementos del mismo tipo en el padre. Podemos
+              decir que :nth-child() se enfoca en la posición y el elemento,
+              mientras que :nth-of-type() se centra en el elemento.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyThree"
+              aria-expanded="false"
+              aria-controls="collapseTwentyThree"
+            >
+              23.Qué es la propiedad box-shadow y cómo se utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La propiedad box-shadow permite agregar sombras a los elementos.
+              Se puede especificar el desplazamiento horizontal y vertical de la
+              sombra, el desenfoque, el tamaño y el color.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyFour"
+              aria-expanded="false"
+              aria-controls="collapseTwentyFour"
+            >
+              24.Qué es la propiedad z-index en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              z-index es una propiedad CSS que controla el orden de apilamiento
+              de los elementos posicionados. Los elementos con un valor de
+              z-index más alto se superponen a los elementos con un valor más
+              bajo.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyFive"
+              aria-expanded="false"
+              aria-controls="collapseTwentyFive"
+            >
+              25.Qué es la propiedad transform en CSS y cómo se utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La propiedad transform permite aplicar transformaciones a un
+              elemento, como rotación, escalado, sesgado y traslación. Se puede
+              utilizar junto con funciones como rotate(), scale(), skew(), etc.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentySix"
+              aria-expanded="false"
+              aria-controls="collapseTwentySix"
+            >
+              26.Cómo se puede hacer que un elemento tenga texto con efecto de
+              sombra?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentySix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede hacer que un elemento tenga texto con efecto de sombra
+              utilizando la propiedad text-shadow y especificando el
+              desplazamiento horizontal y vertical de la sombra, el desenfoque y
+              el color.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentySeven"
+              aria-expanded="false"
+              aria-controls="collapseTwentySeven"
+            >
+              27.Cuál es la diferencia entre inline-block y block en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentySeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              inline-block permite que un elemento se muestre en línea y se
+              comporte como un bloque, lo que significa que puede tener ancho,
+              alto, relleno, margen y otros estilos de bloque.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyEight"
+              aria-expanded="false"
+              aria-controls="collapseTwentyEight"
+            >
+              28.Qué es la propiedad flexbox en CSS y cómo se utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Flexbox es un modelo de diseño en CSS que permite crear diseños
+              flexibles y adaptables. Se utiliza aplicando display: flex; al
+              contenedor padre y definiendo las reglas de distribución y
+              alineación de los elementos secundarios.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyNine"
+              aria-expanded="false"
+              aria-controls="collapseTwentyNine"
+            >
+              29.Cuál es la diferencia entre justify-content y align-items en
+              flexbox?
+            </button>
+          </h2>
+          <div
+            id="collapseTwentyNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              justify-content se utiliza para alinear y distribuir los elementos
+              a lo largo del eje principal (horizontal en flexbox). align-items
+              se utiliza para alinear los elementos a lo largo del eje
+              secundario (vertical en flexbox).
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirty"
+              aria-expanded="false"
+              aria-controls="collapseThirty"
+            >
+              30.Cómo se puede hacer que un elemento ocupe todo el alto
+              disponible en flexbox?
+            </button>
+          </h2>
+          <div
+            id="collapseThirty"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede hacer que un elemento ocupe todo el alto disponible
+              utilizando flex: 1; en el elemento y height: 100%; en el
+              contenedor padre.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyOne"
+              aria-expanded="false"
+              aria-controls="collapseThirtyOne"
+            >
+              31.Qué es la propiedad grid en CSS y cómo se utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              CSS Grid es un sistema de diseño bidimensional que permite crear
+              diseños de cuadrícula flexibles. Se utiliza aplicando display:
+              grid; al contenedor padre y definiendo las filas, columnas y áreas
+              de la cuadrícula.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyTwo"
+              aria-expanded="false"
+              aria-controls="collapseThirtyTwo"
+            >
+              32.Cuál es la diferencia entre grid-template-rows y
+              grid-template-columns en CSS Grid?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              grid-template-rows se utiliza para definir el tamaño y la
+              distribución de las filas en una cuadrícula CSS.
+              grid-template-columns se utiliza para definir el tamaño y la
+              distribución de las columnas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyThree"
+              aria-expanded="false"
+              aria-controls="collapseThirtyThree"
+            >
+              33.Qué es el preprocesador CSS y cuáles son algunos ejemplos?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Un preprocesador CSS es una herramienta que extiende las
+              capacidades de CSS mediante el uso de variables, funciones,
+              mixins, anidamiento, entre otros. Algunos ejemplos populares son
+              Sass, Less y Stylus.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyFour"
+              aria-expanded="false"
+              aria-controls="collapseThirtyFour"
+            >
+              34.Qué es la animación CSS y cómo se utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La animación CSS permite crear efectos de animación en elementos
+              HTML sin la necesidad de JavaScript. Se utiliza con la propiedad
+              animation y definiendo las etapas clave de la animación, la
+              duración y otras propiedades relacionadas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyFive"
+              aria-expanded="false"
+              aria-controls="collapseThirtyFive"
+            >
+              35.Cuál es la diferencia entre transition y animation en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              transition permite crear transiciones suaves entre diferentes
+              estados de un elemento, como cambios de color o tamaño. animation
+              permite crear animaciones más complejas con etapas clave y
+              propiedades más avanzadas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtySix"
+              aria-expanded="false"
+              aria-controls="collapseThirtySix"
+            >
+              36.Qué es el concepto de flexibilidad en CSS y cómo se logra?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtySix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La flexibilidad en CSS se refiere a la capacidad de los elementos
+              para adaptarse y ajustarse al espacio disponible. Se logra
+              utilizando propiedades flexibles como flex-grow, flex-shrink y
+              flex-basis en flexbox.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtySeven"
+              aria-expanded="false"
+              aria-controls="collapseThirtySeven"
+            >
+              37.Qué es la propiedad backface-visibility en CSS y para qué se
+              utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtySeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              backface-visibility es una propiedad que controla si la cara
+              posterior de un elemento en 3D es visible cuando está girado. Se
+              utiliza principalmente en transformaciones 3D y se puede
+              establecer en visible o hidden.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyEight"
+              aria-expanded="false"
+              aria-controls="collapseThirtyEight"
+            >
+              38.Cuál es la diferencia entre inline, inline-block y block en
+              CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              inline hace que un elemento se muestre en línea sin afectar el
+              flujo del contenido. inline-block hace que un elemento se muestre
+              en línea, pero se comporta como un bloque con la posibilidad de
+              establecer ancho y alto. block hace que un elemento se muestre en
+              bloque y ocupe todo el ancho disponible.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyNine"
+              aria-expanded="false"
+              aria-controls="collapseThirtyNine"
+            >
+              39.Cómo se puede cambiar el orden de apilamiento de los elementos
+              en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseThirtyNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se puede cambiar el orden de apilamiento de los elementos
+              utilizando la propiedad z-index y asignando valores numéricos más
+              altos a los elementos que se deseen superponer a otros.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseForty"
+              aria-expanded="false"
+              aria-controls="collapseForty"
+            >
+              40.Cuál es la diferencia entre max-width y min-width en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseForty"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              max-width establece el ancho máximo que puede tener un elemento,
+              mientras que min-width establece el ancho mínimo que debe tener un
+              elemento. Ambas propiedades permiten crear diseños responsivos y
+              adaptativos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html>

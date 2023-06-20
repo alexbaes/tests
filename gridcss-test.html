@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preguntas sobre Grid CSS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container my-5">
+      <h1>10 Preguntas sobre Grid CSS</h1>
+      <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              1.Qué es CSS Grid Layout y cuáles son sus ventajas en comparación
+              con otros métodos de diseño en CSS?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              CSS Grid Layout es un sistema de diseño bidimensional en CSS que
+              permite organizar y alinear elementos en filas y columnas. Sus
+              ventajas incluyen la capacidad de crear diseños complejos, control
+              preciso sobre la posición de los elementos y una estructura clara
+              y concisa del código.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              2.Cuál es la diferencia entre un grid container y un grid item en
+              CSS Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Un grid container es el elemento que contiene los elementos
+              secundarios y se convierte en una cuadrícula utilizando la
+              propiedad display: grid;. Un grid item es un elemento secundario
+              directo del grid container y se posiciona dentro de las celdas de
+              la cuadrícula.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              3.Cuál es el propósito de las propiedades grid-template-rows y
+              grid-template-columns en CSS Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              grid-template-rows se utiliza para definir el tamaño y la
+              distribución de las filas en la cuadrícula, mientras que
+              grid-template-columns se utiliza para definir el tamaño y la
+              distribución de las columnas
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              4.Qué es el concepto de grid gap en CSS Grid Layout y cómo se
+              utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              El grid gap es el espacio vacío entre las filas y columnas de la
+              cuadrícula en CSS Grid Layout. Se define utilizando las
+              propiedades grid-row-gap y grid-column-gap, o la propiedad
+              abreviada grid-gap.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              5.Cómo se puede posicionar elementos dentro de una cuadrícula en
+              CSS Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Se pueden posicionar elementos utilizando las propiedades
+              grid-row-start, grid-row-end, grid-column-start y grid-column-end,
+              o la propiedad abreviada grid-area.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              6.Qué es el concepto de grid lines en CSS Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Las grid lines son las líneas divisorias que definen las filas y
+              columnas de la cuadrícula en CSS Grid Layout. Se pueden numerar
+              para referirse a ellas en las propiedades de posicionamiento.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              7.Cuál es el propósito de la propiedad justify-items en CSS Grid
+              Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La propiedad justify-items se utiliza para alinear los elementos
+              dentro de sus celdas en el eje horizontal. Sus posibles valores
+              son start, end, center, stretch y baseline.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              8.Qué es el concepto de grid areas en CSS Grid Layout y cómo se
+              utiliza?
+            </button>
+          </h2>
+          <div
+            id="collapseEight"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              Las grid areas son áreas rectangulares de la cuadrícula en CSS
+              Grid Layout donde los elementos se pueden posicionar. Se definen
+              utilizando la propiedad grid-template-areas en el grid container y
+              asignando nombres a las áreas.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseNine"
+              aria-expanded="false"
+              aria-controls="collapseNine"
+            >
+              9.Qué es el concepto de grid auto-placement en CSS Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseNine"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              El grid auto-placement es el modo en el que los elementos se
+              posicionan automáticamente dentro de la cuadrícula en CSS Grid
+              Layout cuando no se especifica su ubicación exacta. Se puede
+              controlar utilizando la propiedad grid-auto-flow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTen"
+              aria-expanded="false"
+              aria-controls="collapseTen"
+            >
+              10.Cuál es el propósito de la propiedad grid-auto-columns en CSS
+              Grid Layout?
+            </button>
+          </h2>
+          <div
+            id="collapseTen"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              La propiedad grid-auto-columns se utiliza para establecer el
+              tamaño de las columnas que se crean automáticamente en la
+              cuadrícula en CSS Grid Layout cuando no se especifica su tamaño.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html>
